@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Merriweather';
+    src: url(./fonts/merriweather/Merriweather-Regular.ttf);
+}
+body{
+    padding: 83px 50px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(10, 35, 50, 0.29) 0%, #0A2332 100%);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+   
+}
+
+.container{
+    max-width: 981px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo{
+    margin-bottom: 30px;
+}
+
+.names .title{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 33.8128px;
+    line-height: 43px;
+    text-transform: uppercase;
+    width: 497px;
+    color: #F2C672;
+}
+
+.names .title span{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 33.8128px;
+    line-height: 43px;
+    text-transform: none;
+
+    color: #F2C672;
+}
+
+.middle .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle .images .img1{
+    position: absolute;
+    left: 0px;
+    top: 400px;
+    width: 361.33px;
+    height: 361.33px;
+}
+
+.middle .images .img2{
+    margin-left: 283px;
+    margin-top: -80px;
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+.contact .phone, .contact .instagram{
+    display: flex;
+    align-items: center;
+}
+
+.contact .phone img, .contact .instagram img{
+    margin-right: 9px;
+}
+
+.contact .phone a, .contact .instagram a{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22.2306px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFCA6C;
+    text-decoration: none;
+}
